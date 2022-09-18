@@ -131,9 +131,8 @@ img {
 	font-size: 22px;
 }
 
-.container-cosial {
-	margin-top: 80px;
-	margin-bottom: 85px;
+.container-cosial-index {
+	margin-top: 160px;
 }
 
 .border-icon-cosial-contact {
@@ -171,6 +170,8 @@ img {
         max-width: 100%;
         height: auto;
     }
+
+	
 	
 	
 }
@@ -190,7 +191,8 @@ img {
 	padding-right: 0px;
 	padding: 20px 20px;
 	
-}
+	}  
+
 
 }
 
@@ -207,7 +209,9 @@ img {
 		margin-top: 20px;
 	}
 	
+	
 }
+
 
 @media (min-width: 768px) {
 
@@ -215,6 +219,8 @@ img {
         
     max-width: 720px;
     }
+
+	
     
 }
 
