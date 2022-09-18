@@ -71,6 +71,11 @@ body {
   color: var(--second-color);
 }
 
+.button-link:hover {
+	text-decoration: none;
+	color: var(--second-color);
+}
+
 .container-about-began {
 display: block;
 margin-top: 60px;
@@ -127,6 +132,15 @@ img {
 	margin-top: 20px;
 	font-size: 18px;
 	font-weight: bold;
+}
+
+
+.bold {
+	font-weight: bold ;
+}
+
+#contact {
+	font-size: 22px;
 }
 
 
