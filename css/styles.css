@@ -116,18 +116,6 @@ img {
    font-weight: bold;
 }
 
-.container-cosial {
-	margin-top: 80px;
-	color: var(--second-color);	
-	font-size: 30px;
-	margin-bottom: 85px;
-}
-
-.cosial {
-	font-size: 24px;
-	color: var(--second-color);
-}
-
 .text-about {
 	margin-top: 20px;
 	font-size: 18px;
@@ -135,7 +123,7 @@ img {
 }
 
 
-.bold {
+.bold-contact {
 	font-weight: bold ;
 }
 
@@ -143,7 +131,26 @@ img {
 	font-size: 22px;
 }
 
+.container-cosial {
+	margin-top: 80px;
+	margin-bottom: 85px;
+}
 
+.border-icon-cosial-contact {
+	color: var(--second-color);	
+	background: var(--body-color);
+	padding: 15px 20px 0px;
+	padding-bottom: 15px;
+	border-radius:50%;
+	transition: all 100ms ease-in-out;
+	font-size: 32px;
+
+}
+
+.border-icon-cosial-contact:hover{
+	background: var(--second-color);
+	color: var(--third-color);
+}
 
 
 @media (max-width: 576px) {
