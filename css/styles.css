@@ -86,6 +86,12 @@ body {
 		
 }
 
+.btn-contact {
+	color: var(--second-color);
+	border-radius: var(--box-radius);
+	padding: 10px 20px;
+}
+
 .button2-next {
 	padding: 10px 80px;
 	border-radius: var(--box-radius);
@@ -193,7 +199,16 @@ img {
 
 
 .bold-contact {
-	font-weight: bold ;
+	font-weight: bold;
+}
+
+.bold-contact-fill {
+	margin-left: 180px;
+}
+
+.bold {
+	font-size: 72px;
+	font-weight: bold;
 }
 
 #contact {
