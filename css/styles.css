@@ -117,6 +117,30 @@ body {
 	
 }
 
+.button-text-work {
+	padding: 15px 20px;
+	border-radius: var(--box-radius);
+	text-align: center;
+	display: inline-block;	
+	
+
+}
+
+.button-text-work-inside {
+
+	color: var(--second-color);
+	text-decoration: none;
+}
+
+.button-text-work-inside:hover {
+
+	color: var(--second-color);
+	text-decoration: none;
+}
+
+
+
+
 .button-contact {
   text-decoration: none;
   color: var(--second-color);
