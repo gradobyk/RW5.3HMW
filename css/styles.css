@@ -10,6 +10,8 @@ body {
 	margin-left: 10px;
 }
 
+
+
 .container-project {
 	background: var(--second-color);
 	color: white;
@@ -138,9 +140,6 @@ body {
 	text-decoration: none;
 }
 
-
-
-
 .button-contact {
   text-decoration: none;
   color: var(--second-color);
@@ -268,8 +267,6 @@ img {
 	text-align: center;
 	margin-top: 10px;
 	margin-left: 240px;
-
-
 }
 
 .bar-button-contact {
@@ -277,8 +274,7 @@ img {
 	color: var(--second-color);
 
 	display: inline-block;
-    vertical-align: middle;
-	
+    vertical-align: middle;	
 }
 
 .email-index {
@@ -309,6 +305,10 @@ img {
 
 
 @media (max-width: 576px) {
+
+	.full-work {
+		margin-left: -10px;
+	}
 
 	.button3,
 	.button1,
