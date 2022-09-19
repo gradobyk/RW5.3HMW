@@ -200,6 +200,47 @@ img {
 	font-size: 22px;
 }
 
+.bar-contact {
+	margin-top: 60px;
+	padding: 30px 30px;
+	margin-left: 110px;
+	margin-right: 120px;
+	background: var(--second-color);
+	border-radius: var(--box-radius);
+}
+
+.bar-text {
+	color: var(--third-color);
+	margin-left: 80px;
+}
+.bar-text-work {
+	font-size: 48px;
+}
+.bar-text-work-let {
+	margin-left: 10px;
+}
+
+.bar-but {
+	background: var(--third-color);
+	padding: 25px 40px;
+	font-size: 18px;
+    line-height: 27px;
+	border-radius: var(--box-radius);
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 240px;
+
+
+}
+
+.bar-button-contact {
+	text-decoration: none;
+	color: var(--second-color);
+
+	display: inline-block;
+    vertical-align: middle;
+	
+}
 .container-cosial-index {
 	margin-top: 160px;
 }
