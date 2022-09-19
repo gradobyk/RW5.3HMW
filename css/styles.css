@@ -241,8 +241,15 @@ img {
     vertical-align: middle;
 	
 }
+
+.email-index {
+	text-align: center;
+	font-weight: bold;
+	margin-top: 60px;
+}
 .container-cosial-index {
-	margin-top: 160px;
+	margin-top: 60px;
+	margin-bottom: 30px;
 }
 
 .border-icon-cosial-contact {
