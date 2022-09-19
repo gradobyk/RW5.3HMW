@@ -227,7 +227,7 @@ img {
     line-height: 27px;
 	border-radius: var(--box-radius);
 	text-align: center;
-	margin-top: 20px;
+	margin-top: 10px;
 	margin-left: 240px;
 
 
@@ -305,21 +305,26 @@ img {
 	margin-right: 0px;
 	background: var(--second-color);
 	border-radius: var(--box-radius);
+	max-width: 100%;
 }
 
 .bar-text {
 	color: var(--third-color);
-	
+	text-align: center;
+	margin-left: 0;
+
 }
 .bar-text-work {
 	font-size: 36px;
 }
 .bar-text-work-let {
-	margin-left: 10px;
+	margin-left: 0px;
 }
 
 	.bar-but {
-		margin-left: 80px;
+		margin-left: 0px;
+		max-width: 100%;
+		display: block;
 		
 	}
 	
