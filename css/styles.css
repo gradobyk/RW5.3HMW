@@ -10,8 +10,6 @@ body {
 	margin-left: 10px;
 }
 
-
-
 .container-project {
 	background: var(--second-color);
 	color: white;
@@ -310,6 +308,14 @@ img {
 		margin-left: -10px;
 	}
 
+		.full-contact-full {
+		margin-left: -10px;
+	}
+
+	.full-contact-fill {
+		text-align: center;
+	}
+
 	.button3,
 	.button1,
 	.button2 {
@@ -384,7 +390,11 @@ img {
 
 	.container {
 	margin-bottom: 0px;
-}
+	}
+
+	.index-project {
+		text-align: center;
+	}
 	
 }
 
