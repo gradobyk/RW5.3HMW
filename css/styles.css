@@ -2,7 +2,7 @@
 	--body-color: #EDEBF7;
 	--second-color: #7a6bc5;
 	--third-color: #ffffff; 
-	--box-radius: 10px;
+	--box-radius: 20px;
 }
 
 body {
@@ -20,8 +20,39 @@ body {
 	max-width: 100%;	
 }
 
+.home {
+
+	margin-left: 20px;
+	color: white;
+	text-decoration: none;
+}
+
+.container-weather {
+	margin-left: 120px;
+	margin-right: 40px;
+
+}
+
+.weather-text {
+	margin-top: 60px;
+	margin-right: 100px;
+	margin-left: 40px;
+}
+
+.container-cats {
+
+	padding-left: 120px;
+	padding-right: 40px;
+}
+
+.cats-text {
+	margin-top: 60px;
+	margin-right: 160px;
+}
+
+
 .container-button {
-	margin-top: 40px;
+	margin-top: 10px;
 }
 
 .button1 {
@@ -66,6 +97,20 @@ body {
 		
 }
 
+.button-text-index {
+	padding: 15px 20px;
+	display: inline-block;
+	border-radius: var(--box-radius);
+	
+
+}
+
+.button-text-index-inside {
+	color: var(--second-color);
+	text-decoration: none;
+	
+}
+
 .button-contact {
   text-decoration: none;
   color: var(--second-color);
@@ -78,23 +123,43 @@ body {
 
 .container-about-began {
 display: block;
-margin-top: 60px;
 height: 420px;
 width: 100%;
 background: var(--body-color);
 border-radius: var(--box-radius);
-
 }
 
+.container {
+	margin-bottom: 80px;
+}
+
+.work-img {
+	max-width: 100%;
+	height: auto;
+	border-radius: var(--box-radius);
+
+}
 /* .all-about-text {
 	padding-left: 160px;
 	padding-right: 60px;
 } */
 
-.img-fluid {
+.image-index-began {
 	max-width: 420px;
     height: auto;
 	border-radius: var(--box-radius);
+}
+
+.other-img {
+
+	max-width: 100%;
+	height: auto;
+	border-radius: var(--box-radius);	box-sizing: border-box;
+	margin-left: -20px;
+}
+
+#cats-img {
+	margin-left: -100px;
 }
 
 
@@ -103,6 +168,10 @@ img {
 
 }
 
+.all-about-text {
+	padding-right: 80px;
+	margin-top: 40px;
+}
 .name {
 	color: var(--second-color);
 	margin-top: 20px;
@@ -157,23 +226,33 @@ img {
 	.button3,
 	.button1,
 	.button2 {
-		width: 100px;
+		max-width: 100px;
 		margin-top: 20px;
 	}
 
 	.button-link:hover {
 	text-decoration: none;
 	color: var(--second-color);
-}
+	}
 
 	.img-fluid {
         max-width: 100%;
         height: auto;
     }
 
+	.other-img {
+		margin-left: -10px;
+	}	
+	.container-about-began {
+		margin-bottom: 100px;
+	}
 	
-	
-	
+	.cats-text, .weather-text {
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-left: -40px;
+		margin-right: 0px;
+	}	
 }
 
 @media (max-width: 900px) {
@@ -182,10 +261,9 @@ img {
 		text-align: center;
 	}
  	.button2-next {
-		 margin-bottom: 20px;
-		 
+		 margin-bottom: 20px;	 
 	 }
-
+	 
 	 .all-about-text {
 	padding-left: 0px;
 	padding-right: 0px;
@@ -193,7 +271,12 @@ img {
 	
 	}  
 
-
+	.cats-text, .weather-text {
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-left: -40px;
+		margin-right: 0px;
+	}	
 }
 
 @media (min-width: 576px) {
@@ -205,11 +288,12 @@ img {
 	.button3,
 	.button1,
 	.button2 {
-		width: 100px;
+		max-width: 100px;
 		margin-top: 20px;
 	}
+
 	
-	
+
 }
 
 
@@ -230,32 +314,24 @@ img {
         
     max-width: 900px;
     }
-    
+		.other-img {
+		margin-left: -10px;
+	} 
 }
-
 
 @media (min-width: 1200px) {
 
-    .container {
-        
+    .container {    
     max-width: 1200px;
-    }
-    
+    }  
+	
+	
 }
 
 
-.container {
-	    width: 100%;
-		margin-left: auto;
-		margin-right: auto;
 
-}
 
-.work-img {
-	max-width: 100%;
-	height: auto;
 
-}
 
 
 
