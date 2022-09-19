@@ -319,7 +319,7 @@ img {
 
 	.container-cosial-index {
 	margin-top: 30px;
-}
+	}
 	.bar-contact {
 	margin-top: 40px;
 	padding: 30px 30px;
@@ -328,26 +328,31 @@ img {
 	background: var(--second-color);
 	border-radius: var(--box-radius);
 	max-width: 100%;
-}
+	}
 
-.bar-text {
+	.bar-text {
 	color: var(--third-color);
 	text-align: center;
 	margin-left: 0;
 
-}
-.bar-text-work {
+	}
+	.bar-text-work {
 	font-size: 36px;
-}
-.bar-text-work-let {
+	}
+	.bar-text-work-let {
 	margin-left: 0px;
-}
+	}
 
 	.bar-but {
 		margin-left: 0px;
 		max-width: 100%;
 		display: block;
 		
+	}
+
+	.bold-contact-fill {
+		margin-left: 20px;
+		margin-right: 20px;
 	}
 	
 }
