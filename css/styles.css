@@ -301,11 +301,22 @@ img {
 	color: var(--third-color);
 }
 
+.link-1 {
+	border-radius: var(--box-radius);
+	margin-left: 20px;
+}
+.link-2 {
+	border-radius: var(--box-radius);
+	margin-left: 20px;
+	margin-right: 20px;
+	
+}
 
 @media (max-width: 576px) {
 
 	.full-work {
 		margin-left: -10px;
+		
 	}
 
 		.full-contact-full {
